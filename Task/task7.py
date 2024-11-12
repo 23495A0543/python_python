@@ -12,6 +12,16 @@ Sample Output2:
   [4, 6, 8, 10, 12, 14, 16, 18, 20]
 """
 
-_list =[]
-def input():
-     pass
+
+   
+   
+   
+def numbers(start, end):
+    res = []
+   
+    for num in range(start, end+1):
+        if num % 2 == 0:
+        	res.append(num)
+start = int(input("Enter Start: "))
+end = int(input("Enter End: "))
+numbers(start, end)
